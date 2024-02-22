@@ -10,4 +10,4 @@ st.write(texto)
 
 st.subheadder('dos columnas')
 
-col1, col2 = st.colums(2)
+col1, col2 = st.columns(2)
