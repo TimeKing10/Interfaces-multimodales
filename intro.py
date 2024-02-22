@@ -1,3 +1,3 @@
 import streamlit as st
 from PIL import Image
-st.title("Interfases Multimodales.")
+st.title("La onda")
