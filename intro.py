@@ -4,3 +4,6 @@ st.title("La onda")
 st.header("Cabeza")
 image = Image.open('roca.jpg')
 st.image(image, width=200)
+
+texto = st.text_input('que onda', 'que mas')
+st.write(texto)
