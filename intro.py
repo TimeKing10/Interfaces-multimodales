@@ -7,3 +7,7 @@ st.image(image, width=200)
 
 texto = st.text_input('que onda', 'que mas')
 st.write(texto)
+
+st.subheadder('dos columnas')
+
+col1, col2 = st.colums(2)
