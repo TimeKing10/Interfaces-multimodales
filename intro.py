@@ -11,3 +11,18 @@ st.write(texto)
 st.subheader('dos columnas')
 
 col1, col2 = st.columns(2)
+
+with col1:
+  st.subheader('Palo1')
+  st.write('7u7')
+  resp = st.checkbox("Verifica el texto")
+  if rest:
+    st.write('Correcto')
+
+with col2:
+  st.subheader('Palo2')
+  modo = st.radio('Hola',('banana','...'))
+  if modo == 'banana':
+    st.write('BANANAAAA!!!')
+  if modo == '...':
+    st.write('mmmmm')
