@@ -16,7 +16,7 @@ with col1:
   st.subheader('Palo1')
   st.write('7u7')
   resp = st.checkbox("Verifica el texto")
-  if rest:
+  if resp:
     st.write('Correcto')
 
 with col2:
